@@ -17,6 +17,8 @@ Installation:
 ## Examples:
 
 ### Attributes
-  - views/attributes.pug
+#### data-attributes
+  - views/attrs-data.pug
+
 
 [Online Pug Conversion](https://pughtml.com/)
