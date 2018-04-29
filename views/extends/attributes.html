@@ -13,5 +13,11 @@
     <div data-unescaped='{"message":"Let&#39;s rock!"}'></div>
     <div data-ampersand="{&quot;message&quot;:&quot;a quote: &amp;quot; this &amp; that&quot;}"></div>
     <div data-epoc="1970-01-01T00:00:00.000Z"></div>
+    <h1>Colon Attributes</h1>
+    <!-- Tests for using a colon-prefexed attribute (typical when using short-cut for Vue.js `v-bind`)-->
+    <div :my-var="model"></div>
+    <span v-for="item in items" :key="item.id" :value="item.name"></span>
+    <span v-for="item in items" :key="item.id" :value="item.name"></span>
+    <a :link="goHere" value="static" :my-value="dynamic" @click="onClick()" :another="more">Click Me!</a>
   </body>
 </html>

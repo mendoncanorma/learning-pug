@@ -19,6 +19,7 @@ Installation:
 ### Attributes
 #### data-attributes
   - views/attrs-data.pug
-
+#### colon attributes
+  - views/attrs-colon.pug
 
 [Online Pug Conversion](https://pughtml.com/)
