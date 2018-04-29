@@ -50,4 +50,12 @@ Installation:
 #### block case fall through
   - views/includes/block-code.pug
 
+
+### Classes
+    - views/extends/classes.pug
+#### classes
+  - views/includes/classes.pug
+#### classes empty
+  - views/includes/classes-empty.pug
+
 [Online Pug Conversion](https://pughtml.com/)
