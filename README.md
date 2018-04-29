@@ -17,6 +17,7 @@ Installation:
 ## Examples:
 
 ### Attributes
+  - views/attrs.pug
 #### data-attributes
   - views/attrs-data.pug
 #### colon attributes
