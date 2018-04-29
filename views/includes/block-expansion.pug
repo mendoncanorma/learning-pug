@@ -1,0 +1,19 @@
+// without block expansion
+ul
+    li
+        a(href="#") foo
+            img(src="http://placekitten.com/200/300")
+    li
+        a(href="#") bar
+            img(src="http://placekitten.com/200/300")
+// /without block expansion
+
+// with block expansion
+ul
+    li: a(href="#") foo
+        img(src="http://placekitten.com/200/300")
+    li: a(href="#") bar
+        img(src="http://placekitten.com/200/300")
+// /with block expansion
+
+p baz

@@ -16,15 +16,33 @@ Installation:
 
 ## Examples:
 
+### Basic
+  - views/extends/basic.pug
+  - views/extends/blockquote.pug
+
+
 ### Attributes
+  - views/extends/attributes.pug
+#### basic attributes
   - views/attrs.pug
 #### data-attributes
-  - views/attrs-data.pug
+  - views/includes/attrs-data.pug
 #### colon attributes
-  - views/attrs-colon.pug
+  - views/includes/attrs-colon.pug
 #### attributes using JS function
-  - views/attrs-js.pug
+  - views/includes/attrs-js.pug
 #### attributes unescaped
-  - views/attrs-unescaped.pug
+  - views/includes/attrs-unescaped.pug
+
+
+### Blocks
+  - views/extends/block.pug
+#### block code
+  - views/includes/block-code.pug
+#### block expansion
+  - views/includes/block-expansion.pug
+#### block expansion shorthands
+  - views/includes/block-expansion-shorthands.pug
+
 
 [Online Pug Conversion](https://pughtml.com/)
