@@ -24,5 +24,7 @@ Installation:
   - views/attrs-colon.pug
 #### attributes using JS function
   - views/attrs-js.pug
+#### attributes unescaped
+  - views/attrs-unescaped.pug
 
 [Online Pug Conversion](https://pughtml.com/)

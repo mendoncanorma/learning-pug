@@ -59,5 +59,11 @@
     
     <div id="5" foo="bar" bar="foo"></div>
     <div baz="baz"></div>
+    <h1>Attributes Unescaped</h1>
+    <script type="text/x-template">
+      <div id="user-<%= user.id %>">
+        <h1><%= user.title %></h1>
+      </div>
+    </script>
   </body>
 </html>
