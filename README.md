@@ -58,4 +58,17 @@ Installation:
 #### classes empty
   - views/includes/classes-empty.pug
 
+
+### Code
+    - views/extends/code.pug
+#### code
+  - views/includes/code.pug
+#### code iteration
+  - views/includes/code-iteration.pug
+#### code escape
+  - views/includes/code-escape.pug
+#### code conditionals
+  - views/includes/code-conditionals.pug
+
+
 [Online Pug Conversion](https://pughtml.com/)
