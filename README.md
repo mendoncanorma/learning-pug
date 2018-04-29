@@ -45,4 +45,9 @@ Installation:
   - views/includes/block-expansion-shorthands.pug
 
 
+### Case
+    - views/extends/case.pug
+#### block case fall through
+  - views/includes/block-code.pug
+
 [Online Pug Conversion](https://pughtml.com/)
