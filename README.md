@@ -21,5 +21,7 @@ Installation:
   - views/attrs-data.pug
 #### colon attributes
   - views/attrs-colon.pug
+#### attributes using JS function
+  - views/attrs-js.pug
 
 [Online Pug Conversion](https://pughtml.com/)
