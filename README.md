@@ -74,6 +74,13 @@ Installation:
 | Category | Location |
 | ------ | ------ |
 | Index Page | views/pages/html.pug |
+| html | views/includes/html.pug |
+
+
+### HTML 5
+| Category | Location |
+| ------ | ------ |
+| html | views/includes/html5.pug |
 
 
 ### Includes
