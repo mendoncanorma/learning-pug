@@ -19,7 +19,7 @@ Installation:
 ### Basic
 | Category | Location |
 | ------ | ------ |
-| Basic | views/pages/basic.pug |
+| Index Page | views/pages/basic.pug |
 | blockquote | views/includes/blockquote.pug |
 | self closing html | views/includes/self-closing-html.pug |
 | variables | views/includes/vars.pug |
@@ -28,7 +28,7 @@ Installation:
 ### Attributes
 | Category | Location |
 | ------ | ------ |
-| Attributes | views/pages/attributes.pug |
+| Index Page | views/pages/attributes.pug |
 | basic attributes | views/attrs.pug |
 | data-attributes | views/includes/attrs-data.pug |
 | colon attributes | views/includes/attrs-colon.pug |
@@ -39,7 +39,7 @@ Installation:
 ### Blocks
 | Category | Location |
 | ------ | ------ |
-| Blocks | views/pages/block.pug |
+| Index Page | views/pages/block.pug |
 | block code | views/includes/block-code.pug |
 | block expansion | views/includes/block-expansion.pug |
 | block expansion shorthands | views/includes/block-expansion-shorthands.pug |
@@ -48,14 +48,14 @@ Installation:
 ### Case
 | Category | Location |
 | ------ | ------ |
-| Case | views/pages/case.pug |
+| Index Page | views/pages/case.pug |
 | case fall through | views/includes/case-fall-through.pug |
 
 
 ### Classes
 | Category | Location |
 | ------ | ------ |
-| Classes | views/pages/classes.pug |
+| Index Page | views/pages/classes.pug |
 | classes | views/includes/classes.pug |
 | classes empty | views/includes/classes-empty.pug |
 
@@ -63,37 +63,43 @@ Installation:
 ### Code
 | Category | Location |
 | ------ | ------ |
-| Code | views/pages/code.pug |
+| Index Page | views/pages/code.pug |
 | code | views/includes/code.pug |
 | code iteration | views/includes/code-iteration.pug |
 | code escape | views/includes/code-escape.pug |
 | code conditionals | views/includes/code-conditionals.pug |
 
 
+### HTML
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/html.pug |
+
+
 ### Includes
 | Category | Location |
 | ------ | ------ |
-| Includes | views/pages/includes.pug |
+| Index Page | views/pages/includes.pug |
 
 
 ### Loops
 | Category | Location |
 | ------ | ------ |
-| Loops | views/pages/loops.pug |
+| Index Page | views/pages/loops.pug |
 | variables | views/includes/while.pug |
 
 
 ### Source
 | Category | Location |
 | ------ | ------ |
-| Source | views/pages/source.pug |
+| Index Page | views/pages/source.pug |
 | source | views/includes/source.pug |
 
 
 ### Variables
 | Category | Location |
 | ------ | ------ |
-| Variables | views/pages/vars.pug |
+| Index Page | views/pages/vars.pug |
 | variables | views/includes/vars.pug |
 
 
