@@ -4,16 +4,21 @@
     <title>Pug :: Filters</title>
   </head>
   <body>
-    <h1>Stylus</h1><!DOCTYPE html>
-    <html>
-      <head>
-        <style type="text/css">body {
+    <h1>Stylus</h1>
+    <style type="text/css">body {
   padding: 50px;
 }
 
-        </style>
-      </head>
-      <body></body>
-    </html>
+    </style>
+    <h1>Filter inside include</h1>
+    <style type="text/css">body {
+  padding: 15px;
+}
+
+    </style>
+    <h1>Filter empty</h1>
+    <fb:users>
+      <fb:user age="2"><![CDATA[]]></fb:user>
+    </fb:users>
   </body>
 </html>

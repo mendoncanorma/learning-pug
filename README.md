@@ -75,10 +75,27 @@ Installation:
 | ------ | ------ |
 | Index Page | views/pages/filter.pug |
 | Filter: Stylus | views/includes/filter-stylus.pug |
+| Filter: Inside Include | views/includes/filter-inside-include.pug |
+| Filter: Empty | views/includes/filter-empty.pug |
 
 For Filter Stylus:
 ```sh
 $ npm install --save jstransformer-stylus
+```
+
+For Filter Less:
+```sh
+$ npm install --save jstransformer-less
+```
+
+For Filter cdata:
+```sh
+$ npm install --save jstransformer-cdata
+```
+
+For Filter coffee script:
+```sh
+$ npm install --save jstransformer-coffee-script
 ```
 
 
