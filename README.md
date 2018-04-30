@@ -70,6 +70,18 @@ Installation:
 | code conditionals | views/includes/code-conditionals.pug |
 
 
+### Filter
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/filter.pug |
+| Filter: Stylus | views/includes/filter-stylus.pug |
+
+For Filter Stylus:
+```sh
+$ npm install --save jstransformer-stylus
+```
+
+
 ### HTML
 | Category | Location |
 | ------ | ------ |
