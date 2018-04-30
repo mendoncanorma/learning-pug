@@ -17,12 +17,17 @@ Installation:
 ## Examples:
 
 ### Basic
-  - views/extends/basic.pug
-  - views/extends/blockquote.pug
+  - views/pages/basic.pug
+#### blockquote
+  - views/includes/blockquote.pug
+#### self closing html
+  - views/includes/self-closing-html.pug
+#### variables
+  - views/includes/vars.pug
 
 
 ### Attributes
-  - views/extends/attributes.pug
+  - views/pages/attributes.pug
 #### basic attributes
   - views/attrs.pug
 #### data-attributes
@@ -36,7 +41,7 @@ Installation:
 
 
 ### Blocks
-  - views/extends/block.pug
+  - views/pages/block.pug
 #### block code
   - views/includes/block-code.pug
 #### block expansion
@@ -46,13 +51,13 @@ Installation:
 
 
 ### Case
-    - views/extends/case.pug
+    - views/pages/case.pug
 #### block case fall through
   - views/includes/block-code.pug
 
 
 ### Classes
-    - views/extends/classes.pug
+    - views/pages/classes.pug
 #### classes
   - views/includes/classes.pug
 #### classes empty
@@ -60,7 +65,7 @@ Installation:
 
 
 ### Code
-    - views/extends/code.pug
+    - views/pages/code.pug
 #### code
   - views/includes/code.pug
 #### code iteration
@@ -71,4 +76,20 @@ Installation:
   - views/includes/code-conditionals.pug
 
 
+### Variables
+    - views/pages/vars.pug
+#### variables
+  - views/includes/vars.pug
+
+
+### Loops
+    - views/pages/loops.pug
+#### variables
+  - views/includes/while.pug
+
+
 [Online Pug Conversion](https://pughtml.com/)
+
+Pending:
+https://github.com/pugjs/pug/blob/master/packages/pug/test/cases/blocks-in-if.pug
+https://github.com/pugjs/pug/blob/master/packages/pug/test/cases/blocks-in-blocks.pug

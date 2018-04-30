@@ -1,0 +1,22 @@
+extends ../base
+block config
+    - pageTitle = "Pug :: Basic";
+
+block main
+    h1 "Basic - Blanks"
+
+    ul
+        li foo
+
+        li bar
+
+        li baz
+
+    h1 Blockquote
+    include ../includes/blockquote
+
+    h1 Self Closing HTML
+    include ../includes/self-closing-html
+
+    h1 Variables
+    include ../includes/vars
