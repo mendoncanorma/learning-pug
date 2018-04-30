@@ -76,16 +76,26 @@ Installation:
   - views/includes/code-conditionals.pug
 
 
-### Variables
-    - views/pages/vars.pug
-#### variables
-  - views/includes/vars.pug
+### Includes
+    - views/pages/includes.pug
 
 
 ### Loops
     - views/pages/loops.pug
 #### variables
   - views/includes/while.pug
+
+
+### Source
+    - views/pages/source.pug
+#### variables
+  - views/includes/source.pug
+
+
+### Variables
+    - views/pages/vars.pug
+#### variables
+  - views/includes/vars.pug
 
 
 [Online Pug Conversion](https://pughtml.com/)
