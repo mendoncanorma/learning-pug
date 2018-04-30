@@ -1,0 +1,19 @@
+extends ../base
+block config
+    - pageTitle = "Pug :: Includes";
+
+block main
+    h1 Includes - Basic
+    include ../includes/mixins
+
+    // foo is a mixin
+    +foo
+
+    // include smile.html
+    include ../includes/smile.html
+
+    // include escapes.html
+    include ../includes/escapes.html
+
+    script(type="text/javascript")
+        include:verbatim ../includes/includable.js
