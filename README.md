@@ -17,85 +17,85 @@ Installation:
 # Examples:
 
 ## Basic
-  - views/pages/basic.pug
+- views/pages/basic.pug
 #### blockquote
-  - views/includes/blockquote.pug
+- views/includes/blockquote.pug
 #### self closing html
-  - views/includes/self-closing-html.pug
+- views/includes/self-closing-html.pug
 #### variables
-  - views/includes/vars.pug
+- views/includes/vars.pug
 
 
 ## Attributes
-  - views/pages/attributes.pug
+- views/pages/attributes.pug
 #### basic attributes
-  - views/attrs.pug
+- views/attrs.pug
 #### data-attributes
-  - views/includes/attrs-data.pug
+- views/includes/attrs-data.pug
 #### colon attributes
-  - views/includes/attrs-colon.pug
+- views/includes/attrs-colon.pug
 #### attributes using JS function
-  - views/includes/attrs-js.pug
+- views/includes/attrs-js.pug
 #### attributes unescaped
-  - views/includes/attrs-unescaped.pug
+- views/includes/attrs-unescaped.pug
 
 
 ## Blocks
-  - views/pages/block.pug
+- views/pages/block.pug
 #### block code
-  - views/includes/block-code.pug
+- views/includes/block-code.pug
 #### block expansion
-  - views/includes/block-expansion.pug
+- views/includes/block-expansion.pug
 #### block expansion shorthands
-  - views/includes/block-expansion-shorthands.pug
+- views/includes/block-expansion-shorthands.pug
 
 
 ## Case
-  - views/pages/case.pug
+- views/pages/case.pug
 #### block case fall through
-  - views/includes/block-code.pug
+- views/includes/block-code.pug
 
 
 ## Classes
-  - views/pages/classes.pug
+- views/pages/classes.pug
 #### classes
-  - views/includes/classes.pug
+- views/includes/classes.pug
 #### classes empty
-  - views/includes/classes-empty.pug
+- views/includes/classes-empty.pug
 
 
 ## Code
-  - views/pages/code.pug
+- views/pages/code.pug
 #### code
-  - views/includes/code.pug
+- views/includes/code.pug
 #### code iteration
-  - views/includes/code-iteration.pug
+- views/includes/code-iteration.pug
 #### code escape
-  - views/includes/code-escape.pug
+- views/includes/code-escape.pug
 #### code conditionals
-  - views/includes/code-conditionals.pug
+- views/includes/code-conditionals.pug
 
 
 ## Includes
-  - views/pages/includes.pug
+- views/pages/includes.pug
 
 
 ## Loops
-  - views/pages/loops.pug
+- views/pages/loops.pug
 #### variables
-  - views/includes/while.pug
+- views/includes/while.pug
 
 
 ## Source
-  - views/pages/source.pug
-#### variables
-  - views/includes/source.pug
+- views/pages/source.pug
+#### source
+- views/includes/source.pug
 
 
 ## Variables
-  - views/pages/vars.pug
+- views/pages/vars.pug
 #### variables
-  - views/includes/vars.pug
+- views/includes/vars.pug
 
 
 [Online Pug Conversion](https://pughtml.com/)
