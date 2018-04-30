@@ -14,9 +14,9 @@ Installation:
     - $ npm install -g pug-cli
     - CLI command reference [https://github.com/pugjs/pug-cli]
 
-## Examples:
+# Examples:
 
-### Basic
+## Basic
   - views/pages/basic.pug
 #### blockquote
   - views/includes/blockquote.pug
@@ -26,7 +26,7 @@ Installation:
   - views/includes/vars.pug
 
 
-### Attributes
+## Attributes
   - views/pages/attributes.pug
 #### basic attributes
   - views/attrs.pug
@@ -40,7 +40,7 @@ Installation:
   - views/includes/attrs-unescaped.pug
 
 
-### Blocks
+## Blocks
   - views/pages/block.pug
 #### block code
   - views/includes/block-code.pug
@@ -50,22 +50,22 @@ Installation:
   - views/includes/block-expansion-shorthands.pug
 
 
-### Case
-    - views/pages/case.pug
+## Case
+  - views/pages/case.pug
 #### block case fall through
   - views/includes/block-code.pug
 
 
-### Classes
-    - views/pages/classes.pug
+## Classes
+  - views/pages/classes.pug
 #### classes
   - views/includes/classes.pug
 #### classes empty
   - views/includes/classes-empty.pug
 
 
-### Code
-    - views/pages/code.pug
+## Code
+  - views/pages/code.pug
 #### code
   - views/includes/code.pug
 #### code iteration
@@ -76,24 +76,24 @@ Installation:
   - views/includes/code-conditionals.pug
 
 
-### Includes
-    - views/pages/includes.pug
+## Includes
+  - views/pages/includes.pug
 
 
-### Loops
-    - views/pages/loops.pug
+## Loops
+  - views/pages/loops.pug
 #### variables
   - views/includes/while.pug
 
 
-### Source
-    - views/pages/source.pug
+## Source
+  - views/pages/source.pug
 #### variables
   - views/includes/source.pug
 
 
-### Variables
-    - views/pages/vars.pug
+## Variables
+  - views/pages/vars.pug
 #### variables
   - views/includes/vars.pug
 
