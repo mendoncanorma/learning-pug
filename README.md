@@ -75,8 +75,16 @@ Installation:
 | ------ | ------ |
 | Index Page | views/pages/filter.pug |
 | Filter: Stylus | views/includes/filter-stylus.pug |
+| Filter: Less | views/includes/filter-less.pug |
+| Filter: CoffeeScript | views/includes/filter-coffeescript.pug |
+| Filter: Markdown | views/includes/filter-markdown.pug |
+| Filter: Inline | views/includes/filter-inline.pug |
 | Filter: Inside Include | views/includes/filter-inside-include.pug |
+| Filter: Include | views/includes/filter-include.pug |
 | Filter: Empty | views/includes/filter-empty.pug |
+| Filter: Nested | views/includes/filter-nested.pug |
+| Filter: Custom | ?? |
+
 
 For Filter Stylus:
 ```sh
@@ -97,6 +105,22 @@ For Filter coffee script:
 ```sh
 $ npm install --save jstransformer-coffee-script
 ```
+
+For Filter markdown:
+```sh
+$ npm install --save  jstransformer-markdown
+```
+
+For Filter markdown inline:
+```sh
+$ npm install --save jstransformer-markdown-it
+```
+
+For Filter uglify-js:
+```sh
+$ npm install --save  jstransformer-uglify-js
+```
+
 
 
 ### HTML
