@@ -1,0 +1,21 @@
+p bing #[strong foo] bong
+
+p.
+    bing
+    #[strong foo]
+    #[strong= '[foo]']
+    #[- var foo = 'foo]']
+    #[strong= foo]
+    bong
+
+p
+    | bing
+    | #[strong foo]
+    | #[strong= '[foo]']
+    | #[- var foo = 'foo]']
+    | #[strong= foo]
+    | bong
+
+p.
+    \#[strong escaped]
+    \#[#[strong escaped]]

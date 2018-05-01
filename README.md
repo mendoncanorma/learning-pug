@@ -21,6 +21,9 @@ Installation:
 | ------ | ------ |
 | Index Page | views/pages/basic.pug |
 | basic | views/includes/basic.pug |
+| inline tag | views/includes/inline-tag.pug |
+| block expansion | views/includes/block-expansion.pug |
+| block expansion shorthands | views/includes/block-expansion-shorthands.pug |
 | blockquote | views/includes/blockquote.pug |
 | self closing html | views/includes/self-closing-html.pug |
 | variables | views/includes/vars.pug |
@@ -43,8 +46,7 @@ Installation:
 | ------ | ------ |
 | Index Page | views/pages/block.pug |
 | block code | views/includes/block-code.pug |
-| block expansion | views/includes/block-expansion.pug |
-| block expansion shorthands | views/includes/block-expansion-shorthands.pug |
+
 
 
 ### Case
