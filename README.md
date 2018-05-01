@@ -20,9 +20,11 @@ Installation:
 | Category | Location |
 | ------ | ------ |
 | Index Page | views/pages/basic.pug |
+| basic | views/includes/basic.pug |
 | blockquote | views/includes/blockquote.pug |
 | self closing html | views/includes/self-closing-html.pug |
 | variables | views/includes/vars.pug |
+| form fields | views/includes/form-fields.pug |
 
 
 ### Attributes
