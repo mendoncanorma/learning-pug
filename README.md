@@ -28,6 +28,7 @@ Installation:
 | self closing html | views/includes/self-closing-html.pug |
 | variables | views/includes/vars.pug |
 | form fields | views/includes/form-fields.pug |
+| pre | views/includes/pre.pug |
 
 
 ### Doctype
@@ -37,6 +38,15 @@ Installation:
 | doctype keyword | views/includes/doctype-keyword.pug |
 | doctype default | views/includes/doctype-default.pug |
 | doctype custom | views/includes/doctype-custom.pug |
+
+
+### Comments
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/comments.pug |
+| comments | views/includes/comments.pug |
+| comments source | views/includes/comments-source.pug |
+| comments in case | views/includes/comments-in-case.pug |
 
 
 ### Interpolation
