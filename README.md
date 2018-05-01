@@ -66,9 +66,9 @@ Installation:
 | block code | views/includes/block-code.pug |
 
 
-> inline text is not escaped by default
-> attributes values are escaped by default
-> interpolated values are escaped by default
+> - inline text is not escaped by default
+> - attributes values are escaped by default
+> - interpolated values are escaped by default
 
 ### Escape
 | Category | Location |
