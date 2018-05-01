@@ -148,7 +148,8 @@ $ npm install --save  jstransformer-uglify-js
 | Category | Location |
 | ------ | ------ |
 | Index Page | views/pages/loops.pug |
-| variables | views/includes/while.pug |
+| while loop | views/includes/while.pug |
+| each else | views/includes/for-each-else.pug |
 
 
 ### Source
