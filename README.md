@@ -96,6 +96,7 @@ Installation:
 | Category | Location |
 | ------ | ------ |
 | Index Page | views/pages/case.pug |
+| case | views/includes/case.pug |
 | case fall through | views/includes/case-fall-through.pug |
 
 
