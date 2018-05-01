@@ -30,6 +30,15 @@ Installation:
 | form fields | views/includes/form-fields.pug |
 
 
+### Interpolation
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/interpolation.pug |
+| interpolation | views/includes/interpolation.pug |
+| interpolation mixin | views/includes/interpolation-mixin.pug |
+| interpolation escape | views/includes/interpolation-escape.pug |
+
+
 ### Attributes
 | Category | Location |
 | ------ | ------ |
