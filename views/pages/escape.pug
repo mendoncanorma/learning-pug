@@ -1,0 +1,22 @@
+extends ../base
+block config
+    - pageTitle = "Pug :: Escape";
+
+block main
+    h1 Escape class attributes
+    include ../includes/escape-class-attribute
+
+    h1 Escape text
+    include ../includes/escape-text
+
+    h1 Escape characters
+    include ../includes/escape-chars
+
+    h1 attributes unescaped
+    include ../includes/attrs-unescaped
+
+    h1 interpolation escape
+    include ../includes/interpolation-escape
+
+    h1 code escape
+    include ../includes/code-escape

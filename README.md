@@ -57,6 +57,21 @@ Installation:
 | block code | views/includes/block-code.pug |
 
 
+> inline text is not escaped by default
+> attributes values are escaped by default
+> interpolated values are escaped by default
+
+### Escape
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/escape.pug |
+| escape class attribute | views/includes/escape-class-attribute.pug |
+| escape text | views/includes/escape-text.pug |
+| escape chars | views/includes/escape-chars.pug |
+| attributes unescaped | views/includes/attrs-unescaped.pug |
+| interpolation escape | views/includes/interpolation-escape.pug |
+| code escape | views/includes/code-escape.pug |
+
 
 ### Case
 | Category | Location |
