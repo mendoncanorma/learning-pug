@@ -30,6 +30,15 @@ Installation:
 | form fields | views/includes/form-fields.pug |
 
 
+### Doctype
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/doctype.pug |
+| doctype keyword | views/includes/doctype-keyword.pug |
+| doctype default | views/includes/doctype-default.pug |
+| doctype custom | views/includes/doctype-custom.pug |
+
+
 ### Interpolation
 | Category | Location |
 | ------ | ------ |
