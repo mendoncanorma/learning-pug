@@ -1,0 +1,19 @@
+extends ../base
+block config
+    - pageTitle = "Pug :: Attributes";
+
+block main
+    h1 Mixin
+    include ../includes/mixin
+
+    h1 Mixin unused
+    include ../includes/mixin-unused
+
+    h1 Mixin merge
+    include ../includes/mixin-merge
+
+    h1 Mixin blocks
+    include ../includes/mixin-block
+
+    h1 Mixin blocks tag behaviour
+    include ../includes/mixin-block-tag-behaviour

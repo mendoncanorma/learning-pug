@@ -83,6 +83,16 @@ Installation:
 | code conditionals | views/includes/code-conditionals.pug |
 
 
+### Mixin
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/mixin.pug |
+| mixin | views/includes/mixin.pug |
+| mixin unused | views/includes/mixin-unused.pug |
+| mixin block | views/includes/mixin-block.pug |
+| mixin block | views/includes/mixin-block-tag-behaviour.pug |
+
+
 ### Filter
 | Category | Location |
 | ------ | ------ |

@@ -1,0 +1,36 @@
+mixin articleOne(name)
+    section.article
+        h1= name
+        block
+
+
+html
+    body
+        +articleOne('Foo'): p I'am article one foo
+
+
+mixin articleTwo(name)
+    section.article
+        h1= name
+        p
+            block
+
+
+html
+    body
+        +articleTwo('Something')
+            | I'm a much longer
+            | text-only article,
+            | but you can still
+            | inline html tags
+            | in me if you want.
+
+
+html
+    body
+        +articleTwo('Something').
+            I'm a much longer
+            text-only article,
+            but you can still
+            inline html tags
+            in me if you want.
