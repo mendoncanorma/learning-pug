@@ -1,0 +1,24 @@
+extends ../base
+block config
+    - pageTitle = "Pug :: Yield";
+
+block main
+    h1 Yield Head
+    html
+        body
+            include ../includes/yield-head
+                script(src='/caustic.js')
+                script(src='/app.js')
+
+    h1 Yield Title Head
+    html
+        body
+            include ../includes/yield-title-head
+                | My Title
+
+    h1 Yield Before Conditional
+    html
+        body
+            include ../includes/yield-before-conditional-head
+                script(src='/caustic.js')
+                script(src='/app.js')

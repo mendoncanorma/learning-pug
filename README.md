@@ -204,6 +204,12 @@ $ npm install --save  jstransformer-uglify-js
 | Index Page | views/pages/includes.pug |
 
 
+### Yield
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/yield.pug |
+
+
 For Filter verbatim:
 ```sh
 $ npm install --save  jstransformer-verbatim
