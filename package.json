@@ -11,6 +11,7 @@
     "jstransformer-markdown-it": "^2.1.0",
     "jstransformer-stylus": "^1.5.0",
     "jstransformer-uglify-js": "^1.2.0",
+    "jstransformer-verbatim": "^1.1.1",
     "pug": "^2.0.3"
   },
   "devDependencies": {},

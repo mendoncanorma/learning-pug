@@ -77,8 +77,9 @@ Installation:
 
 
 > - inline text is not escaped by default
-> - attributes values are escaped by default
-> - interpolated values are escaped by default
+> - attributes values are escaped by default e.g. escape-class-attribute.pug
+> - interpolated values are escaped by default e.g. escape-text.pug
+> - html includes are not escaped
 
 ### Escape
 | Category | Location |
@@ -90,6 +91,7 @@ Installation:
 | attributes unescaped | views/includes/attrs-unescaped.pug |
 | interpolation escape | views/includes/interpolation-escape.pug |
 | code escape | views/includes/code-escape.pug |
+| include escape | views/pages/includes.pug |
 
 
 ### Case
@@ -194,11 +196,18 @@ $ npm install --save  jstransformer-uglify-js
 | html | views/includes/html5.pug |
 
 
+> - if include is indented inside a tag, then its content is added inside that tag.
+
 ### Includes
 | Category | Location |
 | ------ | ------ |
 | Index Page | views/pages/includes.pug |
 
+
+For Filter verbatim:
+```sh
+$ npm install --save  jstransformer-verbatim
+```
 
 ### Loops
 | Category | Location |

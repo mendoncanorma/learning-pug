@@ -11,6 +11,56 @@
     <!-- include escapes.html--><script>
   console.log("foo\nbar")
 </script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+var STRING_SUBSTITUTIONS = {    // table of character substitutions
+  '\t': '\\t',
+  '\r': '\\r',
+  '\n': '\\n',
+  '"' : '\\"',
+  '\\': '\\\\'
+};
+
+    </script>
+    <h1>Includes - Script</h1>
+    <script id="pet-template" type="text/x-template">
+      <div class="pet">
+        <h1>{{name}}</h1>
+        <p>{{name}} is a {{species}} that is {{age}} old</p>
+      </div>
+    </script>
+    <h1>Includes - with text</h1>
+    <html>
+      <head>
+        <script type="text/javascript">alert('Hello World');</script>
+        <script src="/caustic.js"></script>
+        <script src="/app.js"></script>
+      </head>
+    </html>
+    <h1>Includes - only text</h1>
+    <html>
+      <body>
+        <p>The message is "<em>hello world</em><strong>hello world</strong>"</p>
+      </body>
+    </html>
+    <h1>Includes - with external JS</h1>
+    <pre><code>var x = "\n here is some \n new lined text";</code></pre>
+    <h1>Includes - yield nested</h1>
+    <html>
+      <head>
+        <title></title>
+      </head>
+      <body>
+        <h1>Page</h1>
+        <div id="content">
+          <div id="content-wrapper">
+            <p>some content</p>
+            <p>and some more</p>
+          </div>
+        </div>
+        <div id="footer">
+          <stuff></stuff>
+        </div>
+      </body>
+    </html>
   </body>
 </html>

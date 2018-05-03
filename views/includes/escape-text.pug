@@ -3,6 +3,9 @@ html
     head
         title escape-test
     body
+        - var para = "I am <strong>Norma</strong>";
+        p= para
+        p!= para
         textarea
-            - var txt = '<param name="flashvars" value="a=&quot;value_a&quot;&b=&quot;value_b&quot;&c=3"/>';
+            - var txt = '<param name="flashvars" value="a=<value_a>&b=&quot;value_b&quot;&c=3"/>';
             | #{txt}
