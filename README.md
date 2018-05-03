@@ -237,6 +237,11 @@ $ npm install --save  jstransformer-verbatim
 | variables | views/includes/vars.pug |
 
 
+### XML
+| Category | Location |
+| ------ | ------ |
+| Index Page | views/pages/xml.pug |
+
 [Online Pug Conversion](https://pughtml.com/)
 
 Pending:
