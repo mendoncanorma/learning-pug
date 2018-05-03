@@ -29,6 +29,8 @@ Installation:
 | variables | views/includes/vars.pug |
 | form fields | views/includes/form-fields.pug |
 | pre | views/includes/pre.pug |
+| styles | views/includes/styles.pug |
+| single period | views/includes/single-period.pug |
 
 
 ### Doctype
@@ -56,6 +58,7 @@ Installation:
 | interpolation | views/includes/interpolation.pug |
 | interpolation mixin | views/includes/interpolation-mixin.pug |
 | interpolation escape | views/includes/interpolation-escape.pug |
+| tag interpolation | views/includes/interpolation-tag.pug |
 
 
 ### Attributes
@@ -241,6 +244,24 @@ $ npm install --save  jstransformer-verbatim
 | Category | Location |
 | ------ | ------ |
 | Index Page | views/pages/xml.pug |
+
+
+### Inheritance
+| Category | Location |
+| ------ | ------ |
+| inheritance | views/pages/inheritance.pug |
+| inheritance - extend - 1 | views/pages/inheritance-extends.pug |
+| inheritance - extend - 2 | views/pages/inheritance-alert-dialog.pug |
+| inheritance - extend - 3 | views/pages/inheritance-extend-mixin.pug |
+| inheritance - extend - 4 | views/pages/inheritance-extend-mixin-block.pug |
+| inheritance - extend - 5 | views/pages/inheritance-extend-whitespace.pug |
+| inheritance - extend - 6 | views/pages/inheritance-extend-recursive.pug |
+
+
+### Misc
+| Category | Location |
+| ------ | ------ |
+| Template | views/pages/template.pug |
 
 [Online Pug Conversion](https://pughtml.com/)
 

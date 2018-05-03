@@ -112,6 +112,19 @@
       <figcaption>from @thefray at 1:43pm on May 10</figcaption>
     </figure>
     <h1>Self Closing HTML</h1><br/><img/>
+    <body>
+      <foo></foo>
+      <foo bar="baz"></foo>
+      <foo/>
+      <foo bar="baz"/>
+      <foo>/</foo>
+      <foo bar="baz">/</foo>
+      <foo/>
+      <foo bar="baz"/>
+      <foo>/</foo>
+      <foo bar="baz">/</foo><img><img>
+      <foo/>
+    </body>
     <h1>Variables</h1>
     <a class="1 2 3" id="bar"></a>
     <h1>Form fields</h1>
@@ -124,6 +137,7 @@
     <label>Password:
       <input type="text" name="user[pass]">
     </label>
+    <h1>Single Period</h1><span>.</span>
     <h1>Pre</h1>
     <pre>foo
 bar
@@ -139,5 +153,27 @@ baz</pre>
     <pre><code>foo
 bar
 baz</code></pre>
+    <h1>Styles</h1>
+    <html>
+      <head>
+        <style>
+          body {
+              padding: 50px;
+          }
+          
+        </style>
+      </head>
+      <body>
+        <div style="color:red;background:green;"></div>
+        <div style="color:red;background:green;"></div>
+        <div style="color:red;background:green;"></div>
+        <div style="color:red;background:green;"></div>
+            <div style="color:red;background:green"></div>
+            <div style="color:red;background:green;"></div>
+        <div style="color:red;background:green;"></div>
+        <div style="color:red;background:green;"></div>
+            <div style="color:red;background:green;"></div>
+      </body>
+    </html>
   </body>
 </html>
