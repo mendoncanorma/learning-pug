@@ -68,6 +68,7 @@ $ npm install --save  jstransformer-verbatim
 | 3. Blanks | views/includes/incl-blanks.pug |
 | 4. Comments | views/includes/incl-comments.pug |
 | 5. Pipeless tags | views/includes/incl-pipeless-tags.pug |
+| 6. Quotes | views/includes/incl-quotes.pug |
 
 
 ### Case Statement
@@ -84,6 +85,12 @@ $ npm install --save  jstransformer-verbatim
 | 1. Index Page | views/pages/conditionals.pug |
 | 2. Conditionals | views/pages/incl-conditionals.pug |
 
+
+### Layout
+| Category | Location |
+| ------ | ------ |
+| 1. Layout with 'block append' | views/pages/layout-block-append.pug |
+| 2.  Layout with 'append' | views/pages/layout-append.pug |
 
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.
