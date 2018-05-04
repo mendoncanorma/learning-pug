@@ -66,6 +66,7 @@ $ npm install --save  jstransformer-verbatim
 | 1. Index Page | views/pages/basic.pug |
 | 2. Basic | views/includes/incl-basic.pug |
 | 3. Blanks | views/includes/incl-blanks.pug |
+| 4. Comments | views/includes/incl-comments.pug |
 
 
 ### Case Statement
@@ -73,6 +74,7 @@ $ npm install --save  jstransformer-verbatim
 | ------ | ------ |
 | 1. Index Page | views/pages/case.pug |
 | 2. Case | views/includes/incl-case.pug |
+| 2. Comments in case | views/includes/incl-comments-case.pug |
 
 
 # Notes:
