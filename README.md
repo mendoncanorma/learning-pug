@@ -90,7 +90,10 @@ $ npm install --save  jstransformer-verbatim
 | Category | Location |
 | ------ | ------ |
 | 1. Layout with 'block append' | views/pages/layout-block-append.pug |
-| 2.  Layout with 'append' | views/pages/layout-append.pug |
+| 2. Layout with 'append' | views/pages/layout-append.pug |
+| 3. Layout with 'block prepend' | views/pages/layout-block-prepend.pug |
+| 4. Layout with 'prepend' | views/pages/layout-prepend.pug |
+| 5. Layout with 'multi append prepend' | views/pages/layout-multi-block-append-prepend.pug |
 
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.
