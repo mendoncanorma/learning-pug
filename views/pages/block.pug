@@ -1,8 +1,9 @@
-extends ../base
+extends ../includes/incl-block
 
-block config
-    - pageTitle = "Pug :: Block"
+block body
+    .block-body-main
+        | I am inside main block
 
-block main
-    h1 Block Code
-    include ../includes/block-code
+        block content
+            .block-body-content
+                | I am inside main content

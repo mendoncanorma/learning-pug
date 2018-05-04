@@ -1,40 +1,14 @@
 extends ../base
 block config
-    - pageTitle = "Pug :: Basic";
+    - pageTitle = "Pug :: basic"
 
 block main
-    h1 "Basic - Blanks"
-    include ../includes/basic
+    // --------------- Start : ../includes/incl-basic ---------------
+    h1 Basic
+    include ../includes/incl-basic
+    // --------------- End : ../includes/incl-basic ---------------
 
-    h1 "Quotes"
-    include ../includes/quotes
-
-    h1 Inline Tags
-    include ../includes/inline-tag
-
-    h1 Block Expansion
-    include ../includes/block-expansion
-
-    h1 Block Expansion Shorthands
-    include ../includes/block-expansion-shorthands
-
-    h1 Blockquote
-    include ../includes/blockquote
-
-    h1 Self Closing HTML
-    include ../includes/self-closing-html
-
-    h1 Variables
-    include ../includes/vars
-
-    h1 Form fields
-    include ../includes/form-fields
-
-    h1 Single Period
-    include ../includes/single-period
-
-    h1 Pre
-    include ../includes/pre
-
-    h1 Styles
-    include ../includes/styles
+    // --------------- Start : ../includes/incl-blanks ---------------
+    h1 Blanks
+    include ../includes/incl-blanks
+    // --------------- End : ../includes/incl-blanks ---------------
