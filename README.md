@@ -71,6 +71,12 @@ $ npm install --save  jstransformer-verbatim
 | 6. Quotes | views/includes/incl-quotes.pug |
 
 
+### Doctype
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/doctype.pug |
+
+
 ### Case Statement
 | Category | Location |
 | ------ | ------ |
