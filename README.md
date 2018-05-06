@@ -188,11 +188,26 @@ $ npm install --save  jstransformer-verbatim
 | 4. Include extends from root | views/pages/include-extends-from-root.pug |
 
 
+
 ### Yield
 | Category | Location |
 | ------ | ------ |
 | 1. Index Page | views/pages/yield.pug |
 
+
+
+### Inheritance
+| Category | Location |
+| ------ | ------ |
+| 1. Basic | views/pages/inheritance.pug |
+| 2. Extend | views/pages/inheritance-extend.pug |
+| 3. Extend Whitespace | views/pages/inheritance-extend-whitespace.pug |
+| 4. Extend Recursive | views/pages/inheritance-extend-recursive.pug |
+| 5. Extend Mixins | views/pages/inheritance-extend-mixins.pug |
+| 5. Extend Mixins Block | views/pages/inheritance-extend-mixins-block.pug |
+| 6. Extend Include | views/pages/inheritance-extend-include.pug |
+| 7. Inheritance Defaults | views/pages/inheritance-defaults.pug |
+| 8. Inheritance Alert Dialog | views/pages/inheritance-alert-dialog.pug |
 
 
 # Notes:
