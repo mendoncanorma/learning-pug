@@ -70,6 +70,9 @@ $ npm install --save  jstransformer-verbatim
 | 5. Pipeless tags | views/includes/incl-pipeless-tags.pug |
 | 6. Quotes | views/includes/incl-quotes.pug |
 | 7. Block Expansion | views/includes/incl-block-expansion.pug |
+| 8. Variables | views/includes/incl-variables.pug |
+| 9. Templates | views/includes/incl-templates.pug |
+| 10. Self Closing Tags | views/includes/incl-self-closing-tags.pug |
 
 
 ### Doctype

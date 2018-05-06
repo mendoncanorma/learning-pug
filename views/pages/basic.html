@@ -97,5 +97,36 @@ is going on</pre>
       </li>
     </ul>
     <!-- --------------- End : ../includes/incl-block-expansion ----------------->
+    <!-- --------------- Start : ../includes/incl-variables ----------------->
+    <h1>Variables</h1><a class="1 2 3" id="bar"></a>
+    <!-- --------------- End : ../includes/incl-variables ----------------->
+    <!-- --------------- Start : ../includes/incl-variables ----------------->
+    <h1>Variables</h1>
+    <script type="text/x-template">
+      <article>
+        <h2>{{title}}</h2>
+        <p>{{description}}</p>
+      </article>
+    </script>
+    <script type="text/x-template">
+      article
+      h2 {{title}}
+      p {{description}}
+    </script>
+    <!-- --------------- End : ../includes/incl-variables ----------------->
+    <!-- --------------- Start : ../includes/incl-self-closing ----------------->
+    <h1>Self Closing</h1>
+    <foo></foo>
+    <foo bar="baz"></foo>
+    <foo/>
+    <foo bar="baz"/>
+    <foo>/</foo>
+    <foo bar="baz">/</foo>
+    <foo/>
+    <foo bar="baz"/>
+    <foo>/</foo>
+    <foo bar="baz">/</foo><img><img>
+    <foo/>
+    <!-- --------------- End : ../includes/incl-self-closing ----------------->
   </body>
 </html>
