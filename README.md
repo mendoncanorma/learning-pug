@@ -106,19 +106,37 @@ $ npm install --save  jstransformer-verbatim
 | Category | Location |
 | ------ | ------ |
 | 1. Index Page | views/pages/filters.pug |
-| 2. Stylus | views/includes/incl-filter-stylus.pug |
-| 3. Stylus | views/includes/incl-filter-markdown.pug |
-| 4. Stylus | views/includes/incl-filter-less.pug |
-| 5. Stylus | views/includes/incl-filter-inline.pug |
-| 6. Stylus | views/includes/incl-filter-coffeescript.pug |
-| 7. Stylus | views/includes/incl-filter-nested.pug |
-| 8. Stylus | views/includes/incl-filter-include.pug |
-| 9. Stylus | views/includes/incl-filter-in-include.pug |
-| 10. Stylus | views/includes/incl-filter-filter-empty.pug |
+| 2. Filter Stylus | views/includes/incl-filter-stylus.pug |
+| 3. Filter Markdown | views/includes/incl-filter-markdown.pug |
+| 4. Filter Less | views/includes/incl-filter-less.pug |
+| 5. Filter Inline | views/includes/incl-filter-inline.pug |
+| 6. Filter Coffeescript | views/includes/incl-filter-coffeescript.pug |
+| 7. Filter Nested | views/includes/incl-filter-nested.pug |
+| 8. Filter Include | views/includes/incl-filter-include.pug |
+| 9. Filter In Include | views/includes/incl-filter-in-include.pug |
+| 10. Filter Empty | views/includes/incl-filter-empty.pug |
+| 11. Filter Config | views/config/config.js |
+
+
+### Mixins
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/mixins.pug |
+| 2. Mixins | views/includes/incl-mixins.pug |
+| 3. Mixin Merge | views/includes/incl-mixin-merge.pug |
+| 4. Mixin Block | views/includes/incl-mixin-blocks.pug |
+| 5. Mixin Block with tag behaviour | views/includes/incl-mixin-blocks-tag-behaviour.pug |
+| 6. Mixin Attribute | views/includes/incl-mixin-attr.pug |
+| 7. Mixin Rest Attribute | views/includes/incl-mixin-rest.pug |
+| 8. Mixin Include | views/includes/incl-mixin-include.pug |
+| 9. Mixin Hoist | views/includes/incl-mixin-hoist.pug |
+| 10. Mixin at end of file | views/includes//incl-mixin-endoffile.pug |
+
 
 
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.
+> Mixins defined after their call do not work. Mixins #3
 
 [Online Pug Conversion](https://pughtml.com/)
 

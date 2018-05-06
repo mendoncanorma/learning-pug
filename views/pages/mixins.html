@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pug :: Mixins</title>
+  </head>
+  <body>
+    <!-- Unused mixin-->
+    <!-- /Unused mixin-->
+    <!-- Mixin Merge-->
+    <!-- /Mixin Merge-->
+    <!-- Mixin Blocks-->
+    <!-- /Mixin Blocks-->
+    <!-- Mixin Block - tag behaviour-->
+    <!-- /Mixin Block - tag behaviour-->
+    <!-- Mixin Attributes-->
+    <!-- /Mixin Attributes-->
+    <!-- Rest arguments-->
+    <!-- /Rest arguments-->
+    <!-- --------------- Start : ../includes/incl-mixins ----------------->
+    <h1>Mixins</h1>
+    <div id="user">
+      <h1>Tobi</h1>
+      <div class="comments">
+            <div class="comment">
+              <h2>This</h2>
+              <p class="body">is a regular javascript</p>
+            </div>
+      </div>
+    </div>
+        <ul>
+          <li>foo</li>
+          <li>bar</li>
+          <li>baz</li>
+        </ul>
+        <ul>
+          <li>foo</li>
+          <li>bar</li>
+          <li>baz</li>
+        </ul>
+        <div id="interpolation">This is interpolated</div>
+    <!-- --------------- End : ../includes/incl-mixins ----------------->
+    <!-- --------------- Start : ../includes/incl-mixin-merge ----------------->
+    <h1>Mixin Merge</h1>
+        <div class="thing hello" attr1="foo" attr2="bar"></div>
+        <div class="thing" attr1="foo" attr2="bar" id="world"></div>
+        <div class="thing hello" attr1="foo" attr2="bar" id="world"></div>
+        <div class="thing hello world" attr1="foo" attr2="bar"></div>
+        <div class="thing hello" attr1="foo" attr2="bar"></div>
+        <div class="thing hello world" attr1="foo" attr2="bar"></div>
+        <div class="thing" attr1="foo" attr2="bar"></div>
+        <div class="thing hello" attr1="foo" attr2="bar"></div>
+    <!-- --------------- Start : ../includes/incl-mixin-merge ----------------->
+    <!-- --------------- Start : ../includes/incl-mixin-blocks ----------------->
+    <h1>Mixin Blocks</h1>
+        <form method="GET" action="/search">
+          <input type="hidden" name="_csrf" value="why">
+          <input type="text" name="query" placeholder="Search">
+          <input type="submit" value="Search">
+        </form>
+        <form method="POST" action="/search">
+          <input type="hidden" name="_csrf" value="why">
+          <input type="text" name="query" placeholder="Search">
+          <input type="submit" value="Search">
+        </form>
+        <form method="POST" action="/search">
+          <input type="hidden" name="_csrf" value="why">
+        </form>
+        <div class="thing" attr1="foo" attr2="bar"></div>
+        <div id="baz">123
+        </div>
+    <!-- --------------- Start : ../includes/incl-mixin-blocks ----------------->
+    <!-- --------------- Start : ../includes/incl-mixin-blocks-tag-behaviour ----------------->
+    <h1>Mixin Blocks Tag Behaviour</h1>
+        <section class="article">
+          <h1>Foo</h1>
+          <p>I'm article foo</p>
+        </section>
+        <section class="article">
+          <h1>Something</h1>
+          <p>
+            I'm a much longer
+            text-only article,
+            but you can still
+            inline html tags
+            in me if you want.
+          </p>
+        </section>
+    <!-- --------------- Start : ../includes/incl-mixin-blocks-tag-behaviour ----------------->
+    <!-- --------------- Start : ../includes/incl-mixin-attr ----------------->
+    <h1>Mixin Attributes</h1>
+        <div class="centered" id="First">Hello World
+        </div>
+        <div class="centered" id="Second">
+          <h1>Section 1</h1>
+          <p>Some important content.</p>
+        </div>
+        <div class="centered" id="Third">
+          <h1 class="foo bar">Section 2</h1>
+          <p>Even more important content.</p>
+          <div class="footer"><a href="menu.html">Back</a></div>
+        </div>
+        <div class="stretch">
+              <div class="centered">
+                <h1 class="highlight">Section 3</h1>
+                <p>Last content.</p>
+                <div class="footer"><a href="#">Back</a></div>
+              </div>
+        </div>
+        <div class="bottom foo bar" name="end" id="Last" data-attr="baz">
+          <p>Some final words.</p>
+        </div>
+        <div class="bottom class1 class2">
+        </div>
+        <div class="thing foo bar thunk" attr1="foo" attr2="bar" attr3="baz" data-foo="&lt;biz&gt;" data-bar="<biz>"></div>
+        <div class="thing baz" attr1="foo" attr2="bar" attr3="qux"></div>
+        <div data-profile="profile" data-creator-name="name">work</div>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+    <!-- --------------- Start : ../includes/incl-mixin-attr ----------------->
+    <!-- --------------- Start : ../includes/incl-mixin-rest ----------------->
+    <h1>Mixin Rest Arguments</h1>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+    <!-- --------------- Start : ../includes/incl-mixin-rest ----------------->
+    <!-- --------------- Start : ../includes/incl-mixin-include ----------------->
+    <h1>Mixin Include</h1>
+            <p>bar</p>
+    <!-- --------------- End : ../includes/incl-mixin-include ----------------->
+    <!-- --------------- Start : ../includes/incl-mixin-hoist ----------------->
+    <h1>Mixin Hoist</h1>
+    <h1>I am head tag</h1>
+    <!-- --------------- End : ../includes/incl-mixin-hoist ----------------->
+    <section class="slide">
+    </section>
+  </body>
+</html>

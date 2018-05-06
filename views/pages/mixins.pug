@@ -1,0 +1,175 @@
+extends ../base
+
+mixin foo3(title)
+    h1= title
+
+block config
+    - pageTitle = "Pug :: Mixins"
+
+block main
+
+    block mixin
+
+        mixin oomment(title, str)
+            .comment
+                h2= title
+                p.body= str
+
+        mixin list
+            ul
+                li foo
+                li bar
+                li baz
+
+        mixin foobar(str)
+            div#interpolation= str + 'interpolated'
+
+        // Unused mixin
+        mixin never-called
+            .wtf This isn't something we ever want to output
+        // /Unused mixin
+
+
+        // Mixin Merge
+        mixin foo
+            p.bar&attributes(attributes) One
+            p.bar.quux&attributes(attributes) Two
+            p&attributes(attributes) Three
+            p.bar&attributes(attributes)(class='baz') Four
+        // /Mixin Merge
+
+
+        // Mixin Blocks
+        mixin form(method, action)
+            form(method=method, action=action)
+                - var csrf_token_from_somewhere = 'why'
+                input(type='hidden', name='_csrf', value=csrf_token_from_somewhere)
+                block
+
+        mixin bar(str)
+            #bar
+                | #{str}
+                block
+
+        mixin foo()
+            #foo
+                +bar('I am string')= '123'
+                    p four
+                    | <p> five </p>
+                block
+
+        mixin baz
+            #baz
+                block
+        // /Mixin Blocks
+
+
+        // Mixin Block - tag behaviour
+        mixin article1(name)
+          section.article
+            h1= name
+            block
+
+        mixin article2(name)
+            section.article
+                h1= name
+                p
+                    block
+        // /Mixin Block - tag behaviour
+
+
+        // Mixin Attributes
+        mixin centered(title)
+            div.centered(id=attributes.id)
+                - if (title)
+                    h1(class=attributes.class)= title
+                block
+                - if (attributes.href)
+                    .footer
+                        a(href=attributes.href) Back
+
+        mixin main(title)
+            div.stretch
+                +centered(title).highlight&attributes(attributes)
+                    block
+
+        mixin bottom
+            div.bottom&attributes(attributes)
+                block
+
+        mixin foo
+            div.thing(attr1='foo', attr2='bar')&attributes(attributes)
+
+        //- Regression test for #1424
+        mixin work_filmstrip_item(work)
+            div&attributes(attributes)= work
+
+
+        mixin my-mixin(arg1, arg2, arg3, arg4)
+            p= arg1
+            p= arg2
+            p= arg3
+            p= arg4
+
+        // /Mixin Attributes
+
+
+        // Rest arguments
+        mixin list-rest(tag, ...items)
+            #{tag}
+                each item in items
+                    li= item
+        // /Rest arguments
+
+    // --------------- Start : ../includes/incl-mixins ---------------
+    h1 Mixins
+    include ../includes/incl-mixins
+    // --------------- End : ../includes/incl-mixins ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-merge ---------------
+    h1 Mixin Merge
+    include ../includes/incl-mixin-merge
+    // --------------- Start : ../includes/incl-mixin-merge ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-blocks ---------------
+    h1 Mixin Blocks
+    include ../includes/incl-mixin-blocks
+    // --------------- Start : ../includes/incl-mixin-blocks ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-blocks-tag-behaviour ---------------
+    h1 Mixin Blocks Tag Behaviour
+    include ../includes/incl-mixin-blocks-tag-behaviour
+    // --------------- Start : ../includes/incl-mixin-blocks-tag-behaviour ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-attr ---------------
+    h1 Mixin Attributes
+    include ../includes/incl-mixin-attr
+    // --------------- Start : ../includes/incl-mixin-attr ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-rest ---------------
+    h1 Mixin Rest Arguments
+    include ../includes/incl-mixin-rest
+    // --------------- Start : ../includes/incl-mixin-rest ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-include ---------------
+    h1 Mixin Include
+    include ../includes/incl-mixin-include
+    // --------------- End : ../includes/incl-mixin-include ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-hoist ---------------
+    h1 Mixin Hoist
+    include ../includes/incl-mixin-hoist
+    // --------------- End : ../includes/incl-mixin-hoist ---------------
+
+
+    // --------------- Start : ../includes/incl-mixin-endoffile ---------------
+    h1 Mixin Hoist
+    include ../includes/incl-mixin-endoffile
+    // --------------- End : ../includes/incl-mixin-endoffile ---------------
