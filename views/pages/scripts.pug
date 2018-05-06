@@ -1,0 +1,29 @@
+script.
+  if (foo) {
+    bar();
+  }
+script!= 'foo()'
+script foo()
+script
+div
+
+
+// script non-js
+script#user-template(type='text/template')
+    #user
+        h1 <%= user.name %>
+        p <%= user.description %>
+
+script#user-template(type='text/template').
+    if (foo) {
+    bar();
+    }
+
+
+// script whitespace
+script.
+    if (foo) {
+
+    bar();
+
+    }

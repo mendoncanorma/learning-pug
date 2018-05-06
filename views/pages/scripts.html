@@ -1,0 +1,32 @@
+
+<script>
+  if (foo) {
+    bar();
+  }
+</script>
+<script>foo()</script>
+<script>foo()</script>
+<script></script>
+<div></div>
+<!-- script non-js-->
+<script id="user-template" type="text/template">
+  <div id="user">
+    <h1><%= user.name %></h1>
+    <p><%= user.description %></p>
+  </div>
+</script>
+<script id="user-template" type="text/template">
+  if (foo) {
+  bar();
+  }
+  
+  
+</script>
+<!-- script whitespace-->
+<script>
+  if (foo) {
+  
+  bar();
+  
+  }
+</script>

@@ -75,6 +75,8 @@ $ npm install --save  jstransformer-verbatim
 | 10. Self Closing Tags | views/includes/incl-self-closing-tags.pug |
 | 11. Text | views/includes/incl-text.pug |
 | 11. Form Fields | views/includes/incl-form-fields.pug |
+| 12. Source | views/includes/incl-source.pug |
+| 13. Single Period | views/includes/incl-single-period.pug |
 
 
 ### Doctype
@@ -211,6 +213,19 @@ $ npm install --save  jstransformer-verbatim
 | 7. Inheritance Defaults | views/pages/inheritance-defaults.pug |
 | 8. Inheritance Alert Dialog | views/pages/inheritance-alert-dialog.pug |
 
+
+
+### Styles
+| Category | Location |
+| ------ | ------ |
+| 1. Styles | views/pages/styles.pug |
+
+
+
+### Scripts
+| Category | Location |
+| ------ | ------ |
+| 1. Scripts | views/pages/scripts.pug |
 
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.
