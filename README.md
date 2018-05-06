@@ -79,6 +79,9 @@ $ npm install --save  jstransformer-verbatim
 | 13. Single Period | views/includes/incl-single-period.pug |
 | 14. Namespace | views/includes/incl-namespace.pug |
 | 15. Nesting | views/includes/incl-nesting.pug |
+| 16. Inline | views/includes/incl-inline-tag.pug |
+
+
 
 
 ### Doctype

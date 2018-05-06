@@ -207,5 +207,28 @@ is going on</pre>
       <li>e</li>
     </ul>
     <!-- --------------- End : ../includes/incl-nesting ----------------->
+    <!-- --------------- Start : ../includes/incl-inline-tag ----------------->
+    <h1>Inline Tag</h1>
+    <p>bing <strong>foo</strong> bong</p>
+    <p>
+      bing
+      <strong>foo</strong>
+      <strong>[foo]</strong>
+      
+      bong
+      
+    </p>
+    <p>
+      bing
+      <strong>foo</strong>
+      <strong>[foo]</strong>
+      
+      bong
+    </p>
+    <p>
+      #[strong escaped]
+      #[<strong>escaped</strong>
+    </p>
+    <!-- --------------- End : ../includes/incl-inline-tag ----------------->
   </body>
 </html>
