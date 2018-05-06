@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pug :: Attributes</title>
+  </head>
+  <body>
+    <!-- --------------- Start : ../includes/incl-attributes ----------------->
+    <h1>Basic</h1>
+    
+    <a href="/contact">contact</a>
+    <a class="button" href="/save">save</a>
+    <a foo bar baz></a>
+    <a foo="foo, bar, baz" bar="1"></a>
+    <a foo="((foo))" bar="1"></a>
+    <select>
+      <option value="foo" selected>Foo</option>
+      <option selected value="bar">Bar</option>
+    </select>
+    <a foo="class:"></a>
+    
+    <input pattern="\S+">
+    
+    <!-- Attributes without comma-->
+    <a href="/contact">contact</a>
+    <a class="button" href="/save">save</a>
+    <a foo bar baz></a><a foo="foo, bar, baz" bar="1"></a><a foo="((foo))" bar="1"></a>
+    <select>
+      <option value="foo" selected>Foo</option>
+      <option selected value="bar">Bar</option>
+    </select><a foo="class:"></a>
+    
+    <input pattern="\S+">
+    <foo terse="true"></foo>
+    <foo date="1970-01-01T00:00:00.000Z"></foo>
+    <foo abc def></foo>
+    <foo abc def></foo>
+    <foo abc def></foo>
+    <foo abc def></foo>
+    <foo abc def></foo>
+    <foo abc def></foo>
+    <div foo="bar" bar="<baz>"></div>
+    <a foo="foo" bar="bar"></a>
+    <a foo="foo" bar="bar"></a>
+    <!-- --------------- End : ../includes/incl-attributes ----------------->
+    <!-- --------------- Start : ../includes/incl-attributes-data ----------------->
+    <h1>Attributes Data</h1>
+    <foo data-user="{&quot;name&quot;:&quot;tobi&quot;}"></foo>
+    <foo data-user='{"name":"tobi"}' name="tobi"></foo>
+    <foo data-items="[1,2,3]"></foo>
+    <foo data-username="tobi"></foo>
+    <foo data-escaped="{&quot;message&quot;:&quot;Let's rock!&quot;}"></foo>
+    <foo data-unescaped='{"message":"Let&#39;s rock!"}'></foo>
+    <foo data-ampersand="{&quot;message&quot;:&quot;a quote: &amp;quot; this &amp; that&quot;}"></foo>
+    <foo data-epoc="1970-01-01T00:00:00.000Z"></foo>
+    <!-- --------------- End : ../includes/incl-attributes-data ----------------->
+    <!-- --------------- Start : ../includes/incl-attributes-colon ----------------->
+    <h1>Attributes Colon</h1>
+    <div :my-var="model"></div>
+    <span v-for="item in items" :key="item.id" :value="item.name"></span>
+    <span v-for="item in items" :key="item.id" :value="item.name"></span>
+    <a :link="goHere" value="static" :my-value="dynamic" @click="onClick()" :another="more">Click Me!</a>
+    <!-- --------------- End : ../includes/incl-attributes-colon ----------------->
+    <!-- --------------- Start : ../includes/incl-attributes-js ----------------->
+    <h1>Attributes JS</h1>
+    <a class="button" href="/user/5"></a>
+    <a class="button" href="/user/5"></a>
+    <meta key="answer" value="42">
+    <a class="class1 class2"></a>
+    <a class="tag-class class1 class2"></a>
+    <a class="button" href="/user/5"></a>
+    <a class="button" href="/user/5"></a>
+    <meta key="answer" value="42">
+    <a class="class1 class2"></a>
+    <a class="tag-class class1 class2"></a>
+    <div id="5" foo="bar"></div>
+    <div baz="baz"></div>
+    <!-- --------------- End : ../includes/incl-attributes-js ----------------->
+    <!-- --------------- Start : ../includes/incl-attributes-unescaped ----------------->
+    <h1>Attributes Unescaped</h1>
+    <script type="text/x-template">
+      <div id="user-<%= user.id %>">
+        <h1><%= user.title %></h1>
+      </div>
+    </script>
+    <script type="text/x-template">
+      <div id="user-&lt;%= user.id %&gt;">
+        <h1><%= user.title %></h1>
+      </div>
+    </script>
+    <!-- --------------- End : ../includes/incl-attributes-unescaped ----------------->
+  </body>
+</html>
