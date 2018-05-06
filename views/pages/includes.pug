@@ -1,0 +1,48 @@
+doctype html
+html
+    head
+
+    body
+
+        // --------------- Start : Include Basic
+        include ../includes/sub-includes/incl-include-sub-mixins
+
+        +foo
+        |
+        |
+        include ../includes/sub-includes/incl-include-smile.html
+        |
+        |
+        include ../includes/sub-includes/incl-include-escapes.html
+        |
+        |
+        script(type="text/javascript")
+            include:verbatim ../includes/sub-includes/incl-include-includable.js
+        // --------------- End : Include Basic ---------------
+
+
+        // --------------- Start : ../includes/incl-include-with-ext-js ---------------
+        h1 Include JS
+        include ../includes/incl-include-with-ext-js
+        // --------------- End : ../includes/incl-include-with-ext-js ----------------
+
+
+
+        // --------------- Start : ../includes/incl-include-script ---------------
+        h1 Include Script
+        include ../includes/incl-include-script.pug
+        // --------------- End : ../includes/incl-include-script ----------------
+
+
+
+        // --------------- Start : ../includes/incl-include-with-text ---------------
+        h1 Include With Text
+        include ../includes/incl-include-with-text
+        // --------------- End : ../includes/incl-include-with-text ----------------
+
+
+
+        // --------------- Start : ../includes/incl-include-only-text ---------------
+        h1 Include Only Text
+        include ../includes/incl-include-only-text
+        // --------------- End : ../includes/incl-include-only-text ----------------

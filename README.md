@@ -179,6 +179,15 @@ $ npm install --save  jstransformer-verbatim
 | 5. interpolated tags | views/includes/incl-interpolated-tags.pug |
 
 
+### Includes
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/includes.pug |
+| 2. Include extends relative | views/pages/include-extends-relative.pug |
+| 3. Include extends from common template | views/pages/include-extends-of-common-template.pug |
+| 4. Include extends from root | views/pages/include-extends-from-root.pug |
+
+
 ### Yield
 | Category | Location |
 | ------ | ------ |
