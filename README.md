@@ -179,6 +179,13 @@ $ npm install --save  jstransformer-verbatim
 | 5. interpolated tags | views/includes/incl-interpolated-tags.pug |
 
 
+### Yield
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/yield.pug |
+
+
+
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.
 > Attributes applied using &attributes are not escaped by default. Attributes #2.
