@@ -133,6 +133,15 @@ $ npm install --save  jstransformer-verbatim
 | 10. Mixin at end of file | views/includes//incl-mixin-endoffile.pug |
 
 
+### Interpolation
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/interpolation.pug |
+| 2. interpolated elements | views/includes/incl-interpolated-elements.pug |
+| 3. interpolation escape | views/includes/incl-interpolation-escape.pug |
+| 4. interpolated mixin | views/includes/incl-interpolated-mixin.pug |
+| 5. interpolated tags | views/includes/incl-interpolated-tags.pug |
+
 
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.

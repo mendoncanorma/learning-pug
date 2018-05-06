@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pug :: Interpolation</title>
+  </head>
+  <body>
+    <!-- --------------- Start : ../includes/incl-interpolated-elements ----------------->
+    <h1>Interpolated Elements</h1>
+    <p><a class="rho rho--modifier" href="#">with inline link</a></p>
+    <p>Some text <a class="rho rho--modifier" href="#"></a></p>
+    <p>Some text <a class="rho rho--modifier" href="#">with inline link</a></p>
+    <!-- --------------- End : ../includes/incl-interpolated-elements ----------------->
+    <!-- --------------- Start : ../includes/incl-interpolation-escape ----------------->
+    <h1>Interpolation Escape</h1>
+    <foo>
+      some
+      #{text}
+      here
+      My ID is {42}
+    </foo>
+    <!-- --------------- End : ../includes/incl-interpolation-escape ----------------->
+    <!-- --------------- Start : ../includes/incl-interpolated-mixin ----------------->
+    <h1>Interpolated Mixin</h1>
+    <p>This also works <a href="http://www.bing.com">Bing</a> so hurrah for Pug
+    </p>
+    <!-- --------------- End : ../includes/incl-interpolated-mixin ----------------->
+    <!-- --------------- Start : ../includes/incl-interpolated-tags ----------------->
+    <h1>Interpolated Tags</h1>
+    <p>value</p>
+    <p foo="bar">value</p>
+    <a something>here</a>
+    <ul>
+          <li><span><img class="icon" src="contact">Contact</span>
+          </li>
+          <li><a href="/contact"><img class="icon">Contact</a>
+          </li>
+    </ul>
+    <!-- --------------- End : ../includes/incl-interpolated-tags ----------------->
+  </body>
+</html>

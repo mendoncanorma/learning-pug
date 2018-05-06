@@ -1,0 +1,25 @@
+extends ../base
+
+block config
+    - pageTitle = "Pug :: Interpolation"
+
+block main
+    // --------------- Start : ../includes/incl-interpolated-elements ---------------
+    h1 Interpolated Elements
+    include ../includes/incl-interpolated-elements
+    // --------------- End : ../includes/incl-interpolated-elements ---------------
+
+    // --------------- Start : ../includes/incl-interpolation-escape ---------------
+    h1 Interpolation Escape
+    include ../includes/incl-interpolation-escape
+    // --------------- End : ../includes/incl-interpolation-escape ---------------
+
+    // --------------- Start : ../includes/incl-interpolated-mixin ---------------
+    h1 Interpolated Mixin
+    include ../includes/incl-interpolated-mixin
+    // --------------- End : ../includes/incl-interpolated-mixin ---------------
+
+    // --------------- Start : ../includes/incl-interpolated-tags ---------------
+    h1 Interpolated Tags
+    include ../includes/incl-interpolated-tags
+    // --------------- End : ../includes/incl-interpolated-tags ---------------
