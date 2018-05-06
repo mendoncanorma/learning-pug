@@ -77,6 +77,8 @@ $ npm install --save  jstransformer-verbatim
 | 11. Form Fields | views/includes/incl-form-fields.pug |
 | 12. Source | views/includes/incl-source.pug |
 | 13. Single Period | views/includes/incl-single-period.pug |
+| 14. Namespace | views/includes/incl-namespace.pug |
+| 15. Nesting | views/includes/incl-nesting.pug |
 
 
 ### Doctype
@@ -227,11 +229,22 @@ $ npm install --save  jstransformer-verbatim
 | ------ | ------ |
 | 1. Scripts | views/pages/scripts.pug |
 
+
+
+### HTML5
+| Category | Location |
+| ------ | ------ |
+| 1. Scripts | views/pages/html5.pug |
+
+
+
+
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.
 > Attributes applied using &attributes are not escaped by default. Attributes #2.
 > Regular attributes are escaped by default. Attributes #6.
 > Interpolation with = escapes values by default. To not escape use !=
+> Interpolation with #{var} escapes values by default.
 > Mixins defined after their call do not work. Mixins #3
 > Attributes with null/undefined/false values are not rendered. Code #2
 > Interpolation with null/undefined values are not rendered. Code #2

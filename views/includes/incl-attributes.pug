@@ -69,3 +69,12 @@ a(foo='foo' "bar"="bar")
 |
 |
 a(foo='foo' 'bar'='bar')
+
+
+// escape class attributes
+foo(attr="<%= bar %>")
+foo(class="<%= bar %>")
+foo(attr!="<%= bar %>")
+foo(class!="<%= bar %>")
+foo(class!="<%= bar %> lol rofl")
+foo(class!="<%= bar %> lol rofl <%= lmao %>")

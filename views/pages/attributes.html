@@ -41,6 +41,13 @@
     <div foo="bar" bar="<baz>"></div>
     <a foo="foo" bar="bar"></a>
     <a foo="foo" bar="bar"></a>
+    <!-- escape class attributes-->
+    <foo attr="&lt;%= bar %&gt;"></foo>
+    <foo class="&lt;%= bar %&gt;"></foo>
+    <foo attr="<%= bar %>"></foo>
+    <foo class="<%= bar %>"></foo>
+    <foo class="<%= bar %> lol rofl"></foo>
+    <foo class="<%= bar %> lol rofl <%= lmao %>"></foo>
     <!-- --------------- End : ../includes/incl-attributes ----------------->
     <!-- --------------- Start : ../includes/incl-attributes-data ----------------->
     <h1>Attributes Data</h1>
@@ -87,6 +94,6 @@
         <h1><%= user.title %></h1>
       </div>
     </script>
-    <!-- --------------- End : ../includes/incl-attributes-unescaped ----------------->
+    <!-- --------------- End : ../includes/incl-attributes-unescaped ------------------>
   </body>
 </html>
