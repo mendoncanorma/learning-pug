@@ -95,6 +95,12 @@ $ npm install --save  jstransformer-verbatim
 | 1. Index Page | views/pages/classes.pug |
 
 
+### Code
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/code.pug |
+
+
 ### Case Statement
 | Category | Location |
 | ------ | ------ |
@@ -165,7 +171,10 @@ $ npm install --save  jstransformer-verbatim
 > Blank lines between tags in HTML are ignored. Basic #3.
 > Attributes applied using &attributes are not escaped by default. Attributes #2.
 > Regular attributes are escaped by default. Attributes #6.
+> Interpolation with = escapes values by default. To not escape use !=
 > Mixins defined after their call do not work. Mixins #3
+> Attributes with null/undefined/false values are not rendered. Code #2
+> Interpolation with null/undefined values are not rendered. Code #2
 
 [Online Pug Conversion](https://pughtml.com/)
 
