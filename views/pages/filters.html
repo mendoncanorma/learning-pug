@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pug :: Filters</title>
+  </head>
+  <body>
+    <!-- --------------- Start : ../includes/incl-filter-stylus ----------------->
+    <h1>Stylus</h1>
+    <style type="text/css">body {
+  padding: 50px;
+}
+
+    </style>
+    <!-- --------------- End : ../includes/incl-filter-stylus ----------------->
+    <!-- --------------- Start : ../includes/incl-filter-markdown ----------------->
+    <h1>Markdown</h1><p>This is <em>some</em> awesome <strong>markdown</strong>
+whoop.</p>
+    <!-- --------------- End : ../includes/incl-filter-stylus ----------------->
+    <!-- --------------- Start : ../includes/incl-filter-less ----------------->
+    <h1>Less</h1>
+    <style type="text/css">body {
+  padding: 15px;
+}
+
+    </style>
+    <!-- --------------- End : ../includes/incl-filter-less----------------->
+    <!-- --------------- Start : ../includes/incl-filter-inline ----------------->
+    <h1>Inline</h1>
+    <p>
+      before <![CDATA[inside]]> after</p>
+    <!-- --------------- End : ../includes/incl-filter-inline ----------------->
+    <!-- --------------- Start : ../includes/incl-filter-coffeescript ----------------->
+    <h1>Coffeescript</h1>
+    <script type="text/javascript">
+      (function() {
+  var regexp;
+
+  regexp = /\n/;
+
+}).call(this);
+      (function() {
+  var math;
+
+  math = {
+    square: function(value) {
+      return value * value;
+    }
+  };
+
+}).call(this);
+
+    </script>
+    <!-- --------------- End : ../includes/incl-filter-coffeescript ----------------->
+    <!-- --------------- Start : ../includes/incl-filter-nested ----------------->
+    <h1>Nested</h1>
+    <script><![CDATA[!function(){console.log("test")}();]]></script>
+    <script><![CDATA[(function(){!function(){console.log("test")}()}).call(this);]]></script>
+    <!-- --------------- End : ../includes/incl-filter-nested ----------------->
+    <!-- --------------- Start : ../includes/incl-filter-include ----------------->
+    <h1>Include</h1>
+    <p>Just <em>some</em> markdown <strong>tests</strong>.</p>
+<p>With new line.</p>
+    (function(){}).call(this);(function() {
+  var math;
+
+  math = {
+    square: function(value) {
+      return value * value;
+    }
+  };
+
+}).call(this);
+
+    <!-- --------------- End : ../includes/incl-filter-include ----------------->
+    <!-- --------------- Start : ../includes/incl-filter-in-include ----------------->
+    <h1>Filter In Include</h1>
+    <style type="text/css">body {
+  padding: 15px;
+}
+
+    </style>
+    <!-- --------------- End : ../includes/incl-filter-in-include ----------------->
+    <!-- --------------- Start : ../includes/incl-filter-empty ----------------->
+    <h1>Filter Empty</h1>
+    <fb:users>
+      <fb:user age="2"><![CDATA[]]></fb:user>
+    </fb:users>
+    <!-- --------------- End : ../includes/incl-filter-empty ----------------->
+  </body>
+</html>

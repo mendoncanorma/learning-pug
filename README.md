@@ -101,6 +101,22 @@ $ npm install --save  jstransformer-verbatim
 | 4. Layout with 'prepend' | views/pages/layout-prepend.pug |
 | 5. Layout with 'multi append prepend' | views/pages/layout-multi-block-append-prepend.pug |
 
+
+### Filters
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/filters.pug |
+| 2. Stylus | views/includes/incl-filter-stylus.pug |
+| 3. Stylus | views/includes/incl-filter-markdown.pug |
+| 4. Stylus | views/includes/incl-filter-less.pug |
+| 5. Stylus | views/includes/incl-filter-inline.pug |
+| 6. Stylus | views/includes/incl-filter-coffeescript.pug |
+| 7. Stylus | views/includes/incl-filter-nested.pug |
+| 8. Stylus | views/includes/incl-filter-include.pug |
+| 9. Stylus | views/includes/incl-filter-in-include.pug |
+| 10. Stylus | views/includes/incl-filter-filter-empty.pug |
+
+
 # Notes:
 > Blank lines between tags in HTML are ignored. Basic #3.
 
