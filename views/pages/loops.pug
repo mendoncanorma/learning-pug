@@ -1,0 +1,19 @@
+extends ../base
+block config
+    - pageTitle = "Pug :: basic"
+
+block main
+    // --------------- Start : ../includes/incl-iteration ---------------
+    h1 Basic
+    include ../includes/incl-iteration
+    // --------------- End : ../includes/incl-iteration ---------------
+
+    // --------------- Start : ../includes/incl-while ---------------
+    h1 While
+    include ../includes/incl-while
+    // --------------- End : ../includes/incl-while ---------------
+
+    // --------------- Start : ../includes/incl-each-else ---------------
+    h1 Each Else
+    include ../includes/incl-each-else
+    // --------------- End : ../includes/incl-each-else ---------------

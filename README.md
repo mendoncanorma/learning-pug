@@ -119,6 +119,15 @@ $ npm install --save  jstransformer-verbatim
 | 2. Conditionals | views/pages/incl-conditionals.pug |
 
 
+### Loops
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/loops.pug |
+| 2. Iteration | views/includes/incl-iteration |
+| 3. While | views/includes/incl-while |
+| 4. Each Else | views/includes/incl-each-else |
+
+
 ### Layout
 | Category | Location |
 | ------ | ------ |
