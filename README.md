@@ -73,6 +73,8 @@ $ npm install --save  jstransformer-verbatim
 | 8. Variables | views/includes/incl-variables.pug |
 | 9. Templates | views/includes/incl-templates.pug |
 | 10. Self Closing Tags | views/includes/incl-self-closing-tags.pug |
+| 11. Text | views/includes/incl-text.pug |
+| 11. Form Fields | views/includes/incl-form-fields.pug |
 
 
 ### Doctype
@@ -218,6 +220,7 @@ $ npm install --save  jstransformer-verbatim
 > Mixins defined after their call do not work. Mixins #3
 > Attributes with null/undefined/false values are not rendered. Code #2
 > Interpolation with null/undefined values are not rendered. Code #2
+> Single period at the beginning of a line does nothing
 
 [Online Pug Conversion](https://pughtml.com/)
 
