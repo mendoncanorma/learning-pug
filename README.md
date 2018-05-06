@@ -69,22 +69,30 @@ $ npm install --save  jstransformer-verbatim
 | 4. Comments | views/includes/incl-comments.pug |
 | 5. Pipeless tags | views/includes/incl-pipeless-tags.pug |
 | 6. Quotes | views/includes/incl-quotes.pug |
+| 7. Block Expansion | views/includes/incl-block-expansion.pug |
 
 
 ### Doctype
 | Category | Location |
 | ------ | ------ |
 | 1. Index Page | views/pages/doctype.pug |
+
+
+### Attributes
+| Category | Location |
+| ------ | ------ |
+| 1. Index Page | views/pages/attributes.pug |
 | 2. Basic | views/includes/incl-attributes.pug |
 | 3. Data Attributes | views/includes/incl-attributes-data.pug |
 | 4. Colon Attributes | views/includes/incl-attributes-colon.pug |
 | 5. Attributes via JS | views/includes/incl-attributes-js.pug |
 | 6. Unescaped Attributes | views/includes/incl-attributes-unescaped.pug |
 
-### Attributes
+
+### Classes
 | Category | Location |
 | ------ | ------ |
-| 1. Index Page | views/pages/attributes.pug |
+| 1. Index Page | views/pages/classes.pug |
 
 
 ### Case Statement

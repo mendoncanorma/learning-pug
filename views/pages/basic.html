@@ -82,5 +82,20 @@ is going on</pre>
     <p>"foo"</p>
     <p>'foo'</p>
     <!-- --------------- End : ../includes/incl-quotes ----------------->
+    <!-- --------------- Start : ../includes/incl-block-expansion ----------------->
+    <h1>Block Expansion</h1>
+    <ul>
+      <li><a href="#">foo <img src="src"/></a></li>
+      <li><a href="#">bar <img src='src' /></a></li>
+    </ul>
+    <p>baz</p>
+    <ul>
+      <li class="list-item">
+        <div class="foo">
+          <div id="bar">baz</div>
+        </div>
+      </li>
+    </ul>
+    <!-- --------------- End : ../includes/incl-block-expansion ----------------->
   </body>
 </html>
